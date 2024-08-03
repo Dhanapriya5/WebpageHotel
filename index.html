@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .nav-content{
+               display:flex ;
+               column-gap: 5%;
+               list-style-type:none;
+              
+               
+            }
+            .nav-content li{
+                padding:2%;
+            }
+
+            .nav-content li a{
+                text-decoration:none;
+               color:white;
+               font-size: medium;
+            }
+        .container{
+            background-color: #0d1db6;
+            border-radius:2px;
+            position:fixed;
+            width: 100%;
+            z-index: 6;
+
+        }
+        .nav-content li:hover{
+            background-color: #950fca;
+            text-decoration: #0f0404;
+        }
+        .nav-content li a:hover{
+              color: black;
+            }
+            .caption{
+                background-color:rgba(255, 217, 0, 0.737) ;
+                width: 50%;
+                padding: 3%;
+                margin: 2%;
+                border-radius: 8px;
+                box-shadow: 10px 10px 5px #5c585887;
+                position: absolute;
+                color: black;
+                z-index: 6;
+                top: 40%;
+                left:17%;
+            }
+        
+            .content1{
+                width: 900%;
+                background-image: url(./images/img1.png);
+                background-position: 100px;
+                position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;
+                text-align: center;
+                text-decoration-color: azure;
+            }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <ul class="nav-content">
+            <li><a href="./pages">Home</a></li>
+            <li><a href="./pages/register.html">Register</a></li>
+            <li><a href="./pages/about.html">About Us</a></li>
+            <li><a href="./pages/rooms.html">Rooms & Suites</a></li>
+            <li><a href="./pages/services.html">Services & Amenities</a></li>
+            <li><a href="./pages/booking.html">Booking</a></li>
+            <li><a href="./pages/contact.html">Contact Us</a></li>
+            <li><a href="./pages/offers.html">Special Offers</a></li>
+         
+        </ul>
+    </nav>
+</div> 
+<div>
+    <section class="content1">
+        <div class ="caption">
+            <div class="caption-head">
+              <h2>Welcome to Hotel Kaanalaa </h2>
+        </div>
+        <div class="caption-para">
+        <p>Your perfect getaway awaits.</p>
+    </div>
+</div>
+    </section>
+    
+    
+</div>
+</body>
+</html>

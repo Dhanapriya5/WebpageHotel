@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Login</title>
+    <style>
+         .content{
+            background-image: url(..//images/img5.jpg);
+                background-repeat: no-repeat center  center fixed;
+                width: 100%;
+                height: 100%;
+                position: absolute; top: 0; left: 0; 
+                background-size: cover;
+                display: block;
+                text-align: center;
+                color: #0c1a05;
+                justify-content: center;
+                align-items: center;
+                text-decoration-color: rgb(255, 240, 240)
+            }
+        
+    </style>
+</head>
+<body>
+    <section class="content">
+    <h1>Log In</h1>
+    <p>Welcome back! Please log in to your account.</p>
+    <form action="./login.html" method="POST">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <button type="submit">Log In</button>
+    </form>
+    <p><a href="./forgotpass.html">Forgot your password?</a></p>
+    <p>Don't have an account? <a href="./register.html">Sign up here</a>.</p>
+</section>
+</body>
+</html>
